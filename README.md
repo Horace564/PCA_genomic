@@ -7,12 +7,6 @@
   - first 3 columns: unique identifier; gender and population
   - the 10101 columns are a subsample of nucleobases from the individual’s genome
 - The data matrix X is defined as：
-\[
-x_{ij} = [X]_{ij} = 
-\begin{cases} 
-0, & \text{如果第 } i \text{ 个个体的第 } j \text{ 个核碱基是该位置（第 } j \text{ 列）的众数核碱基。} \\
-1, & \text{否则。}
-\end{cases}
-\]
-
+  - Xij = 0, if the i-th individual has column j’s mode nucleobase fortheir jth nucleobase,
+  - Xij = 1, otherwise.
 
