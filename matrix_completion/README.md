@@ -15,6 +15,8 @@
 - The second model is personalized, which predicts unrated movies by applying SVD
 - The last model is also personalized, but uses ALS to predict unrated movies instead of SVD.
 - The loss function is defined as:
+-
+![image](https://github.com/user-attachments/assets/0161da0d-be83-4f7e-8b97-61d55c945995)
 
 
 ## Files
