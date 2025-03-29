@@ -15,7 +15,4 @@
 - The second model is personalized, which predicts unrated movies by applying SVD
 - The last model is also personalized, but uses ALS to predict unrated movies instead of SVD.
 - The loss function is defined as: 
-$$ 
-L(\{ U_i \}, \{ V_j \}) := \sum_{(i,j) \in T} \left( \langle U_i, V_j \rangle - R_{i,j} \right)^2 + \lambda \sum_{i=1}^{n} \| U_i \|_2^2 + \lambda \sum_{j=1}^{m} \| V_j \|_2^2
-$$
-
+![alt text](image-1.png)
